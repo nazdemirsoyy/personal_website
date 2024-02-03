@@ -1,0 +1,66 @@
+.sectionProjects {
+  background-color: #000000; 
+  color: #FFFFFF;
+  padding: 3rem 0;
+}
+
+.maxWidth {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2.25rem; 
+  font-weight: 700;
+  border-bottom: 1px solid #4B5563; 
+  padding-bottom: 1rem;
+  margin-bottom: 2rem; 
+}
+
+.projectCard {
+  background-color: #111827; 
+  border-radius: 5px; 
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.projectCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Ensure this card pops out above others */
+  position: relative; /* Needed for z-index to work correctly */
+}
+
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between; /* Align items to the left and right */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 1rem;
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.projectLanguage {
+  background-color: #10B981; /* Badge background color */
+  color: #000000;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  margin-bottom: 1rem; /* Spacing between description and link */
+}
+
+.projectLink {
+  color: #10B981; /* Link color */
+  text-decoration: none;
+  font-weight: 600;
+}

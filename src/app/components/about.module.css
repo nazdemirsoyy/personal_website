@@ -1,0 +1,53 @@
+.container {
+  background-color: #000; /* Black background */
+  text-align: center; /* Center the content */
+  padding: 50px; /* Add padding around the content */
+  color: #fff; /* White text color */
+}
+
+#name {
+  font-size: 3em; /* Large font size for the name */
+  margin-bottom: 20px; /* Space below the name */
+}
+
+.paragraph {
+  font-size: 1.2em; /* Slightly larger font size for the paragraph */
+  margin-bottom: 30px; /* Space below the paragraph */
+  font-weight: 300; /* Lighter font-weight */
+  font-family: "NTR", sans-serif;
+}
+
+.emailButton {
+  background-color: #111827; /* Green background color */
+  color: white; /* White text color for the button */
+  padding: 15px 32px; /* Padding inside the button */
+  text-align: center; /* Center the text inside the button */
+  text-decoration: none; /* No underline on the text */
+  display: inline-block; /* Allow the button to be inline */
+  font-size: 16px; /* Set font size for the button */
+  margin: 4px 2px; /* Margin around the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none; /* No border */
+  border-radius: 25px; /* Rounded borders */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add some shadow for depth */
+  transition-duration: 0.4s; /* Transition effect when hovering */
+}
+
+.emailButton:hover {
+  background-color: #45a049; /* Darker shade of green when hovering */
+}
+
+.icon {
+  margin-right: 10px; /* Space between the icon and the text */
+}
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    #name {
+      font-size: 2rem; /* Smaller font size on mobile devices */
+    }
+    .email-button {
+      padding: 8px 16px; /* Smaller button on mobile devices */
+    }
+  }
+  

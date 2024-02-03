@@ -1,0 +1,51 @@
+.sectionExperience {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 3rem 0;
+  }
+  
+  .maxWidth {
+    max-width: 64rem;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    border-bottom: 0.25rem solid #4B5563;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cardContainer {
+    padding: 1.5rem;
+    background-color: #111827;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem; /* Spacing between cards */
+  }
+  
+  .role {
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+  
+  .companyName {
+    color: #10B981; /* Adjust the color to match your design */
+  }
+  
+  .date {
+    margin-bottom: 1rem;
+    color: #CCCCCC; /* Adjust for less emphasis */
+  }
+  
+  .responsibilities {
+    list-style-type: none; /* Removes default list style */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .responsibilities li {
+    margin-bottom: 0.5rem; /* Spacing between bullet points */
+  }
+  

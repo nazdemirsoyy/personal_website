@@ -1,0 +1,21 @@
+.footer {
+    background-color: #000000; 
+    color: #fff; /* White text color */
+    padding: 1rem; /* Padding around the content */
+    text-align: center; /* Center the links */
+  }
+  .content {
+    margin-bottom: 1rem; /* Adds space between the paragraphs and the links */
+  }
+  
+  .link {
+    color: #fff; /* White link color */
+    margin: 0 1rem; /* Margin on the sides of each link */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Transition for hover effect */
+  }
+  
+  .link:hover {
+    color: #10B981; /* Change color on hover */
+  }
+  

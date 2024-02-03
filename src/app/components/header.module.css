@@ -1,0 +1,27 @@
+.header {
+    background-color: #000000; /* Dark background */
+    color: #FFFFFF; /* White text color */
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    width: 40%;
+    justify-content:left;
+  }
+  
+  .brand, .navItem {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navItem:hover {
+    color: #10B981; /* Highlight color for hover state */
+  }
+  
+  /* Additional styling here for responsive design or active states */
+  
