@@ -5,7 +5,7 @@ const projects = [
       name: "PixelRatings",
       language: "React Native",
       description: "A Game Rating Mobile Application.",
-      link: "https://github.com/nazdemirsoyy/Thesis"
+      link: "PixelRatings Documentation.pdf"
     }, 
     {
         name: "Tatooine",
