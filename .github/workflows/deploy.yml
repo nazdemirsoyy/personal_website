@@ -30,5 +30,8 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           cd /var/www/nazdemirsoy.com
-          # Add commands to restart your application
+          npm install
+          npm run build
+          pm2 restart nazdemirsoy
           sudo systemctl restart nginx
+    
