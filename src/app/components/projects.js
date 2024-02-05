@@ -12,7 +12,7 @@ const projects = [
         language: "JavaScript",
         description: "Spearheaded the design and development of a 2D real-time city builder game along the lines of the classic SimCity, as part of a collaborative team effort.",
         link: "Tatooine - User Documentation.pdf"
-      }
+      },
 ];
 
 export default function Projects() {
