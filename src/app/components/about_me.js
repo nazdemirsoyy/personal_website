@@ -8,7 +8,7 @@ export default function AboutMe() {
         <h2 className={styles.heading}>About Me</h2>
         <div className={styles.cardContainer}>
             <p className="mb-4">
-                I am currently a Developer at <span className={styles.highlightText}>ExxonMobil</span>. At the same time, I am undertaking a part-time Master's in Software Engineering at <span className={styles.highlightText}>Italy</span>. You can download my CV from <a href="/CV.pdf" download className={styles.link}>here</a>.              
+                I am currently a Developer at <span className={styles.highlightText}>ExxonMobil</span>. At the same time, I am undertaking a part-time Master's in Software Engineering at <span className={styles.highlightText}>Italy</span>. You can download my CV from <a href="/Naz CV.pdf" download className={styles.link}>here</a>.              
             </p>
             <p className="font-bold mb-2">Here are some technologies I have been working with:</p>
             <ul className={styles.technologyList}>
