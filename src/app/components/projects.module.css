@@ -46,21 +46,37 @@
   font-weight: 600;
 }
 
+.projectLanguages {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
 .projectLanguage {
-  background-color: #10B981; /* Badge background color */
+  background-color: #10B981;
   color: #000000;
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
   font-size: 0.85rem;
+  white-space: nowrap; 
+  text-align: center; 
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  height: fit-content; 
+}
+
+.projectLanguage:last-child {
+  margin-right: 0; 
 }
 
 .projectDescription {
   font-size: 1rem;
-  margin-bottom: 1rem; /* Spacing between description and link */
+  margin-bottom: 1rem; 
 }
 
 .projectLink {
-  color: #10B981; /* Link color */
+  color: #10B981; 
   text-decoration: none;
   font-weight: 600;
 }
