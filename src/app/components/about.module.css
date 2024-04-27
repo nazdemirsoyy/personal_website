@@ -10,12 +10,11 @@
   margin-bottom: 20px; /* Space below the name */
 }
 
-#font-size{
+#jobtitle{
   font-size:1.25em;
-  text-align: center;
   margin-bottom: 20px;
   font-style: italic;
-   
+
 }
 
 .paragraph {
