@@ -3,13 +3,14 @@ import styles from '../components/experiences.module.css';
 const experiences = [
     {
         company: "ExxonMobil Hungary",
-        role: "System Analyst",
+        role: "OutSystems & Web Developer",
         date: "OCT 2023 - JAN 2024",
         points: [
           "• Lead the development of an internal product using the OutSystems platform.",
           "• Integrated emerging business requirements to optimize product functionality.",
           "• Actively engaged with end-users to collate feedback, driving continuous product improvements based on their insights.",
-          "• Strategically planned and prioritized product releases to align with organizational goals and user demands."
+          "• Strategically planned and prioritized product releases to align with organizational goals and user demands.",
+          "• Building Web Applications using HTML, CSS and JavaScript."
         ],
       },
       {

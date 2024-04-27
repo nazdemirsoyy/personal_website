@@ -10,6 +10,12 @@
   margin-bottom: 20px; /* Space below the name */
 }
 
+#font-size{
+  font-size:2em;
+  text-align: center;
+  margin-bottom: 10px; 
+}
+
 .paragraph {
   font-size: 1.2em; /* Slightly larger font size for the paragraph */
   margin-bottom: 30px; /* Space below the paragraph */
@@ -45,6 +51,9 @@
   @media (max-width: 600px) {
     #name {
       font-size: 2rem; /* Smaller font size on mobile devices */
+    }
+    #jobtitle{
+      font-size: 2rem;
     }
     .email-button {
       padding: 8px 16px; /* Smaller button on mobile devices */
