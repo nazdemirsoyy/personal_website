@@ -1,5 +1,5 @@
 .sectionExperience {
-    background-color: #000000;
+    /* background-color: #000000; */
     color: #FFFFFF;
     padding: 3rem 0;
   }
@@ -15,6 +15,7 @@
     border-bottom: 0.25rem solid #4B5563;
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
+    color: #111827;
   }
   
   .cardContainer {
