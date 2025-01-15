@@ -1,0 +1,42 @@
+name: Deploy to DigitalOcean
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Deploy to server and restart application
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SERVER_IP }}
+        username: ${{ secrets.SERVER_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        port: ${{ secrets.SERVER_PORT }}
+        script: |
+        
+          # Set up the PATH for npm and pm2
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+          export PATH=$(npm bin -g):$PATH
+          
+          # Go to the app directory
+          /var/www/naz_personal_website
+          
+          # Pull the latest changes
+          git pull origin main
+          
+          # Install dependencies and build the app
+          npm install
+          npm run build
+          
+          # Restart the app with PM2
+          pm2 restart naz-webpage
+          
