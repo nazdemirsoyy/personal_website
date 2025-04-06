@@ -13,6 +13,12 @@ const projects = [
         description: "Spearheaded the design and development of a 2D real-time city builder game along the lines of the classic SimCity, as part of a collaborative team effort.",
         link: "Tatooine - User Documentation.pdf"
       },
+      {
+        name: "Was2Eat",
+        languages: ["React Native", "Python"],
+        description: "Was2Eat is a nutrition analysis app that enhances the user experience through AI-powered technologies. It combines a React Native frontend with a Dockerized Python FastAPI backend on DigitalOcean, leveraging Supabase for data storage and an AI model for tailored food recommendations.",
+        link: "https://was2eat.com"
+      },
 ];
 
 export default function Projects() {
