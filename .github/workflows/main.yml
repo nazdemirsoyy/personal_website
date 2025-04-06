@@ -28,7 +28,7 @@ jobs:
           export PATH=$(npm bin -g):$PATH
           
           # Go to the app directory
-          /var/www/naz_personal_website
+          cd /var/www/naz_personal_website
           
           # Pull the latest changes
           git pull origin main
